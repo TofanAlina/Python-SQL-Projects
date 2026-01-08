@@ -1,4 +1,4 @@
-# SQL-Based Data Analysis Applied on Recruitment Platform Project
+# SQL-Based Data Analysis on Recruitment Platform
 
 ## Project Overview
 This project represents the data analysis component of my final Bachelor Degree project: developing a full-stack recruitment platform.
