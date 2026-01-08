@@ -24,17 +24,29 @@ img cu query si interfata pentru linia 2
 <imagine cu exemplu construire query pentru filtrare cu 5 filtre>
 
 ---
-
 ## Analytical Queries & Insights
 
-  Business-oriented insights were implemented by combining `JOIN`s, `GROUP BY` and aggregate functions, to support informed decision-making in situations such as field research in the context of a career change, or a user's decision to relocate to another county to develop and access a more advantageous salary level.
-  The charts created with the help of SQL provide a clear overview of the existing labor market on the platform by highlighting the following aspects:
-- highest-paying fields
-- district ranking based on average salary levels.
-<imagine Salary trend interfata- AverageSalaryQuery decupat>
+Business-oriented analytical queries were developed using complex `JOIN`s, `GROUP BY` clauses, and aggregate functions to transform raw platform data into actionable insights for both candidates and employers.
 
-  Regarding the activity of economic agents on the website, there were 2 statistical investigations added to provide relevant information in making decisions related to the available human resources and the recruitment process. The analysis of candidates distribution organized by county can greatly support companies that plan to expand their business through headquarters, factories or other buildings located in new geographic areas, as they can assess the availability of labor in those areas.
+### Labor Market & Salary Analysis
+Several analytical queries were designed to support candidates in understanding labor market dynamics, especially in scenarios such as career reorientation or geographic relocation. These analyses provide visibility into:
 
-- Distribution of candidates by county and specialization.
+- Highest-paying job fields based on average salary levels.
+- County-level salary comparisons, highlighting regions with more competitive compensation.
+
+<Salary analysis interface + corresponding SQL query>
+
+These insights help users evaluate potential opportunities and make informed career decisions based on financial and regional factors.
+
+### Employer & Workforce-Oriented Analysis
+To support employers and business stakeholders, additional analyses focus on workforce availability and recruitment dynamics across regions:
+
+- Distribution of candidates by county and field of specialization.
+- Regional concentration of skills, useful for companies planning geographic expansion or new operational sites.
+
+<Candidates distribution interface + SQL query>
+
+By leveraging aggregated data on candidate locations and expertise, employers can assess labor availability and align recruitment strategies with regional market conditions.
+
 <img candidates_count interfata>
 tabel cu distribution of candidates poza interfata si poza query din spate>
