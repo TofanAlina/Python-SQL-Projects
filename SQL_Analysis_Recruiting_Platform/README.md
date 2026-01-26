@@ -28,27 +28,27 @@ SQL was used in communicating with the database built in a MariaDB server, throu
 ### CRUD Operations & Filtering Logic
 - Implemented `INSERT`, `UPDATE`, and `DELETE` operations for users, job postings by companies, and applications.
 - Ensured data consistency during record creation and updates.
-- Built dynamic SQL queries to support filtered and sorted views of candidates, employers, and job postings, allowing up to five simultaneous filters.
+- **Built dynamic SQL queries to support filtered and sorted views** of candidates, employers, and job postings, allowing up to five simultaneous filters.
 <img src="BuildingComplexFIlterQuery.png" width="450"/>
 
 ---
 
 ## Analytical Queries & Insights
 
-Business-oriented analytical queries were developed using complex `JOIN`s, `GROUP BY` clauses, and aggregate functions to transform raw platform data into actionable insights for both candidates and employers.
+**Business-oriented analytical queries** were developed using complex `JOIN`s, `GROUP BY` clauses, and aggregate functions to transform raw platform data into actionable insights for both candidates and employers.
 
 ### Labor Market & Salary Analysis
-Several analytical queries were designed to support candidates in understanding labor market dynamics, especially in scenarios such as career reorientation or geographic relocation. These analyses provide visibility into:
+**Several analytical queries** were designed to support candidates in **understanding labor market dynamics**, especially in scenarios such as **career reorientation or geographic relocation**. These analyses provide visibility into:
 
 - Highest-paying job fields based on average salary levels.
 - County-level salary comparisons, highlighting regions with more competitive compensation.
 
 <img src="Salary Trend.png" width="500"/>
 
-These insights help users evaluate potential opportunities and make informed career decisions based on financial and regional factors.
+**These insights help users evaluate potential opportunities and make informed career decisions based on financial and regional factors.**
 
 ### Employer & Workforce-Oriented Analysis
-To support employers and business stakeholders, additional analyses focus on workforce availability and recruitment dynamics across regions:
+To support employers and business stakeholders, additional analyses focus on **workforce availability** and **recruitment dynamics across regions**:
 
 - Distribution of candidates by county and field of specialization.
 - Regional concentration of skills, useful for companies planning geographic expansion or new operational sites.
